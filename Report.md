@@ -32,12 +32,12 @@ The following table summarizes the results from hyperparameter tuning:
 
 | **Model** | **BUFFER_SIZE** | **BATCH_SIZE** | **GAMMA** | **TAU** | **LR_ACTOR** | **LR_CRITIC** | **WEIGHT_DECAY** | **theta** | **sigma** | **Average Training Time** | **Episodes to Solve** | **Average Score at Convergence** | **Average Score** | **Plot** |
 |-----------|-----------------|----------------|----------|---------|-------------|--------------|-----------------|----------|----------|---------------------------|----------------------|---------------------------------|-------------------|---------|
-| hyper_1   | 1e6 | 128 | 0.99 | 1e-3 | 1e-4 | 1e-3 | 0 | 0.15 | 0.05 | 1293.28 | 271 | 0.05 | 0.015 | ![Plot](plots/hype_1.png) |
-| hyper_2   | 1e6 | 128 | 0.99 | 1e-3 | 1e-4 | 1e-3 | 0 | 0.12 | 0.07 | --- | 500 | 0.00 | -0.00 | ![Plot](plots/hype_2.png) |
-| hyper_3   | 1e6 | 128 | 0.98 | 1e-3 | 1e-4 | 1e-3 | 0 | 0.15 | 0.07 | 866.90 | 174 | 0.05 | 0.02 | ![Plot](plots/hype_3.png) |
-| hyper_4   | 1e6 | 128 | 0.99 | 1e-3 | 1e-4 | 1e-3 | 0 | 0.15 | 0.02 | 458.87 | 50 | 0.05 | 0.015 | ![Plot](plots/hype_4.png) |
-| hyper_5   | 1e6 | 128 | 0.99 | 1e-3 | 1e-4 | 1e-3 | 0 | 0.05 | 0.02 | --- | 500 | 0.02 | 0.015 | ![Plot](plots/hype_5.png) |
-| hyper_6   | 1e6 | 128 | 0.99 | 1e-2 | 1e-4 | 1e-3 | 0 | 0.15 | 0.05 | --- | 500 | 0.01 | 0.005 | ![Plot](plots/hype_6.png) |
+| hyper_1   | 1e6 | 128 | 0.99 | 1e-3 | 1e-4 | 1e-3 | 0 | 0.15 | 0.05 | 1293.28 | 271 | 0.05 | 0.015 | ![Plot](plots/hyper_1.png) |
+| hyper_2   | 1e6 | 128 | 0.99 | 1e-3 | 1e-4 | 1e-3 | 0 | 0.12 | 0.07 | --- | 500 | 0.00 | -0.00 | ![Plot](plots/hyper_2.png) |
+| hyper_3   | 1e6 | 128 | 0.98 | 1e-3 | 1e-4 | 1e-3 | 0 | 0.15 | 0.07 | 866.90 | 174 | 0.05 | 0.02 | ![Plot](plots/hyper_3.png) |
+| hyper_4   | 1e6 | 128 | 0.99 | 1e-3 | 1e-4 | 1e-3 | 0 | 0.15 | 0.02 | 458.87 | 50 | 0.05 | 0.015 | ![Plot](plots/hyper_4.png) |
+| hyper_5   | 1e6 | 128 | 0.99 | 1e-3 | 1e-4 | 1e-3 | 0 | 0.05 | 0.02 | --- | 500 | 0.02 | 0.015 | ![Plot](plots/hyper_5.png) |
+| hyper_6   | 1e6 | 128 | 0.99 | 1e-2 | 1e-4 | 1e-3 | 0 | 0.15 | 0.05 | --- | 500 | 0.01 | 0.005 | ![Plot](plots/hyper_6.png) |
 
 
 By performing hyperparameter tuning and retraining the model multiple times, I successfully improved the agent's performance. The chosen hyperparameters for the third training session resulted in the fastest training time and achieved the highest average score at convergence, but in the long run it fails to perform. So I am choosing the first set of hyperparameters.
