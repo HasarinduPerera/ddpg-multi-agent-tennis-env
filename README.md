@@ -3,7 +3,7 @@
 [image1]: https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif "Trained Agent"
 
 
-# Project 3: Collaboration and Competition
+# DDPG: Multi-Agent Tennis Environment (Unity)
 
 ## Introduction
 
@@ -41,13 +41,13 @@ To get started with this repository, follow the instructions below to install th
 1. Clone the repository to your local machine using the following command:
 
    ```
-   git clone https://github.com/HasarinduPerera/drlnd-collaboration-competition-project
+   git clone https://github.com/HasarinduPerera/ddpg-multi-agent-tennis-env
    ```
 
 2. Change into the project directory:
 
    ```
-   cd drlnd-collaboration-competition-project
+   cd ddpg-multi-agent-tennis-env
    ```
 
 3. Start the project without any additional work as the required environment, "Banana.app," is already uploaded in this project.
